@@ -11,7 +11,7 @@ def rem(request):
         print(json_object['tasks'])
  
         
-    with open('sample.txt', 'w') as outfile:
+    with open('sample.json', 'w') as outfile:
         json.dump(json_object, outfile)
         print("54655")
         print(json_object['tasks'])
